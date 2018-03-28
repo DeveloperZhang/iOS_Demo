@@ -13,6 +13,8 @@
 @property(nonatomic, assign)int result;
 @property(nonatomic, assign)BOOL isEqual;
 
+typedef void(^blockName)(void);
+
 - (CaculatorMaker *(^)(int))add;
 - (CaculatorMaker *)caculator:(int(^)(int result))caculator;
 - (CaculatorMaker *)equal:(BOOL(^)(int result))operation;

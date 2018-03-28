@@ -1,5 +1,5 @@
 target '20180325RACDemo' do
-pod 'ReactiveCocoa', '~> 7.0'	
+pod 'ReactiveCocoa','~> 2.5'
 end
 
 use_frameworks!
