@@ -40,10 +40,19 @@
                                     <segue destination="dIq-fl-5rV" kind="show" identifier="mySegue" id="0fb-uO-cXR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcz-cl-oud">
+                                <rect key="frame" x="152" y="366" width="70" height="30"/>
+                                <state key="normal" title="RACStudy"/>
+                                <connections>
+                                    <segue destination="8M2-W5-agO" kind="show" identifier="racSegue" id="7q4-Fg-3TA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="mQ8-Xq-Hf7" firstAttribute="centerX" secondItem="tWC-Ia-bbf" secondAttribute="centerX" id="UDe-VD-6kb"/>
+                            <constraint firstItem="Hcz-cl-oud" firstAttribute="centerX" secondItem="tWC-Ia-bbf" secondAttribute="centerX" id="pgf-2L-aGy"/>
+                            <constraint firstItem="Hcz-cl-oud" firstAttribute="top" secondItem="mQ8-Xq-Hf7" secondAttribute="bottom" constant="18" id="uMk-f7-ebE"/>
                             <constraint firstItem="mQ8-Xq-Hf7" firstAttribute="centerY" secondItem="tWC-Ia-bbf" secondAttribute="centerY" id="zsN-zZ-yQ3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DjA-Mf-kis"/>
@@ -53,6 +62,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDP-oE-bhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="790" y="199"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cn5-Hq-CiM">
+            <objects>
+                <viewController id="8M2-W5-agO" customClass="RACViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="34h-Vi-G0S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qjz-9p-d1r"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mqr-9S-2WF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="969"/>
         </scene>
         <!--SecondController-->
         <scene sceneID="EVz-47-svA">

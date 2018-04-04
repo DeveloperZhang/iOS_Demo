@@ -17,6 +17,7 @@
 		047AC21C20678DF40048D29A /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AC21B20678DF40048D29A /* NSObject+Caculator.m */; };
 		047AC21F20678E480048D29A /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AC21E20678E480048D29A /* CaculatorMaker.m */; };
 		E8B0F648206A25F600BB0CF9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B0F647206A25F600BB0CF9 /* SecondViewController.m */; };
+		E8DF28E4206C9C1900A6F8F8 /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF28E3206C9C1900A6F8F8 /* RACViewController.m */; };
 		EF89024D14B0AEBE7F4A8BAD /* Pods_20180325RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689601C33A60E8CF1CB58466 /* Pods_20180325RACDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		689601C33A60E8CF1CB58466 /* Pods_20180325RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20180325RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B0F646206A25F600BB0CF9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E8B0F647206A25F600BB0CF9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E8DF28E2206C9C1900A6F8F8 /* RACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
+		E8DF28E3206C9C1900A6F8F8 /* RACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				047AC1F820678D510048D29A /* ViewController.m */,
 				E8B0F646206A25F600BB0CF9 /* SecondViewController.h */,
 				E8B0F647206A25F600BB0CF9 /* SecondViewController.m */,
+				E8DF28E2206C9C1900A6F8F8 /* RACViewController.h */,
+				E8DF28E3206C9C1900A6F8F8 /* RACViewController.m */,
 				047AC1FA20678D510048D29A /* Main.storyboard */,
 				047AC1FD20678D510048D29A /* Assets.xcassets */,
 				047AC1FF20678D510048D29A /* LaunchScreen.storyboard */,
@@ -312,6 +317,7 @@
 				E8B0F648206A25F600BB0CF9 /* SecondViewController.m in Sources */,
 				047AC21C20678DF40048D29A /* NSObject+Caculator.m in Sources */,
 				047AC21F20678E480048D29A /* CaculatorMaker.m in Sources */,
+				E8DF28E4206C9C1900A6F8F8 /* RACViewController.m in Sources */,
 				047AC1F920678D510048D29A /* ViewController.m in Sources */,
 				047AC20420678D510048D29A /* main.m in Sources */,
 				047AC1F620678D510048D29A /* AppDelegate.m in Sources */,

@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    int (^myBlock)(void) = ^(){
+        NSLog(@"");
+        return 1;
+    };
+    int a = myBlock();
     return YES;
 }
 
