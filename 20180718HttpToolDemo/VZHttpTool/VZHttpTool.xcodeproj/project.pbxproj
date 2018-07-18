@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84CB56820FDDD8500B095AE /* imggg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84CB56720FDDD8500B095AE /* imggg.jpg */; };
+		E85BC50020FCC98A00A7623E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85BC4FF20FCC98A00A7623E /* AppDelegate.m */; };
+		E85BC50320FCC98A00A7623E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85BC50220FCC98A00A7623E /* ViewController.m */; };
+		E85BC50620FCC98A00A7623E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85BC50420FCC98A00A7623E /* Main.storyboard */; };
+		E85BC50820FCC98A00A7623E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85BC50720FCC98A00A7623E /* Assets.xcassets */; };
+		E85BC50B20FCC98A00A7623E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85BC50920FCC98A00A7623E /* LaunchScreen.storyboard */; };
+		E85BC50E20FCC98A00A7623E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85BC50D20FCC98A00A7623E /* main.m */; };
+		E85BC52420FCC99E00A7623E /* VZHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E85BC52320FCC99E00A7623E /* VZHttpTool.m */; };
+		E8B5AC5A20FDA84C00BD38E7 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5AC5820FDA84C00BD38E7 /* MyTableViewCell.m */; };
+		E8B5AC5B20FDA84C00BD38E7 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B5AC5920FDA84C00BD38E7 /* MyTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E85BC51420FCC98A00A7623E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85BC4F320FCC98A00A7623E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85BC4FA20FCC98A00A7623E;
+			remoteInfo = VZHttpTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84CB56720FDDD8500B095AE /* imggg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imggg.jpg; sourceTree = "<group>"; };
+		E85BC4FB20FCC98A00A7623E /* VZHttpTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZHttpTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85BC4FE20FCC98A00A7623E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E85BC4FF20FCC98A00A7623E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E85BC50120FCC98A00A7623E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E85BC50220FCC98A00A7623E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E85BC50520FCC98A00A7623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E85BC50720FCC98A00A7623E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E85BC50A20FCC98A00A7623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E85BC50C20FCC98A00A7623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85BC50D20FCC98A00A7623E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85BC51320FCC98A00A7623E /* VZHttpToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZHttpToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85BC51920FCC98A00A7623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85BC52220FCC99E00A7623E /* VZHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZHttpTool.h; sourceTree = "<group>"; };
+		E85BC52320FCC99E00A7623E /* VZHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZHttpTool.m; sourceTree = "<group>"; };
+		E8B5AC5720FDA84C00BD38E7 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		E8B5AC5820FDA84C00BD38E7 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		E8B5AC5920FDA84C00BD38E7 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85BC4F820FCC98A00A7623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85BC51020FCC98A00A7623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E85BC4F220FCC98A00A7623E = {
+			isa = PBXGroup;
+			children = (
+				E85BC4FD20FCC98A00A7623E /* VZHttpTool */,
+				E85BC51620FCC98A00A7623E /* VZHttpToolTests */,
+				E85BC4FC20FCC98A00A7623E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E85BC4FC20FCC98A00A7623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85BC4FB20FCC98A00A7623E /* VZHttpTool.app */,
+				E85BC51320FCC98A00A7623E /* VZHttpToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85BC4FD20FCC98A00A7623E /* VZHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				E85BC4FE20FCC98A00A7623E /* AppDelegate.h */,
+				E85BC4FF20FCC98A00A7623E /* AppDelegate.m */,
+				E85BC50120FCC98A00A7623E /* ViewController.h */,
+				E85BC50220FCC98A00A7623E /* ViewController.m */,
+				E8B5AC5720FDA84C00BD38E7 /* MyTableViewCell.h */,
+				E8B5AC5820FDA84C00BD38E7 /* MyTableViewCell.m */,
+				E8B5AC5920FDA84C00BD38E7 /* MyTableViewCell.xib */,
+				E84CB56720FDDD8500B095AE /* imggg.jpg */,
+				E85BC52220FCC99E00A7623E /* VZHttpTool.h */,
+				E85BC52320FCC99E00A7623E /* VZHttpTool.m */,
+				E85BC50420FCC98A00A7623E /* Main.storyboard */,
+				E85BC50720FCC98A00A7623E /* Assets.xcassets */,
+				E85BC50920FCC98A00A7623E /* LaunchScreen.storyboard */,
+				E85BC50C20FCC98A00A7623E /* Info.plist */,
+				E85BC50D20FCC98A00A7623E /* main.m */,
+			);
+			path = VZHttpTool;
+			sourceTree = "<group>";
+		};
+		E85BC51620FCC98A00A7623E /* VZHttpToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E85BC51920FCC98A00A7623E /* Info.plist */,
+			);
+			path = VZHttpToolTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85BC4FA20FCC98A00A7623E /* VZHttpTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85BC51C20FCC98A00A7623E /* Build configuration list for PBXNativeTarget "VZHttpTool" */;
+			buildPhases = (
+				E85BC4F720FCC98A00A7623E /* Sources */,
+				E85BC4F820FCC98A00A7623E /* Frameworks */,
+				E85BC4F920FCC98A00A7623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VZHttpTool;
+			productName = VZHttpTool;
+			productReference = E85BC4FB20FCC98A00A7623E /* VZHttpTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E85BC51220FCC98A00A7623E /* VZHttpToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85BC51F20FCC98A00A7623E /* Build configuration list for PBXNativeTarget "VZHttpToolTests" */;
+			buildPhases = (
+				E85BC50F20FCC98A00A7623E /* Sources */,
+				E85BC51020FCC98A00A7623E /* Frameworks */,
+				E85BC51120FCC98A00A7623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E85BC51520FCC98A00A7623E /* PBXTargetDependency */,
+			);
+			name = VZHttpToolTests;
+			productName = VZHttpToolTests;
+			productReference = E85BC51320FCC98A00A7623E /* VZHttpToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85BC4F320FCC98A00A7623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = VicentZ;
+				TargetAttributes = {
+					E85BC4FA20FCC98A00A7623E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E85BC51220FCC98A00A7623E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E85BC4FA20FCC98A00A7623E;
+					};
+				};
+			};
+			buildConfigurationList = E85BC4F620FCC98A00A7623E /* Build configuration list for PBXProject "VZHttpTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E85BC4F220FCC98A00A7623E;
+			productRefGroup = E85BC4FC20FCC98A00A7623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85BC4FA20FCC98A00A7623E /* VZHttpTool */,
+				E85BC51220FCC98A00A7623E /* VZHttpToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85BC4F920FCC98A00A7623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84CB56820FDDD8500B095AE /* imggg.jpg in Resources */,
+				E85BC50B20FCC98A00A7623E /* LaunchScreen.storyboard in Resources */,
+				E8B5AC5B20FDA84C00BD38E7 /* MyTableViewCell.xib in Resources */,
+				E85BC50820FCC98A00A7623E /* Assets.xcassets in Resources */,
+				E85BC50620FCC98A00A7623E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85BC51120FCC98A00A7623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85BC4F720FCC98A00A7623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85BC50320FCC98A00A7623E /* ViewController.m in Sources */,
+				E85BC52420FCC99E00A7623E /* VZHttpTool.m in Sources */,
+				E85BC50E20FCC98A00A7623E /* main.m in Sources */,
+				E85BC50020FCC98A00A7623E /* AppDelegate.m in Sources */,
+				E8B5AC5A20FDA84C00BD38E7 /* MyTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85BC50F20FCC98A00A7623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E85BC51520FCC98A00A7623E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85BC4FA20FCC98A00A7623E /* VZHttpTool */;
+			targetProxy = E85BC51420FCC98A00A7623E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E85BC50420FCC98A00A7623E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85BC50520FCC98A00A7623E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E85BC50920FCC98A00A7623E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85BC50A20FCC98A00A7623E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85BC51A20FCC98A00A7623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E85BC51B20FCC98A00A7623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85BC51D20FCC98A00A7623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85BC51E20FCC98A00A7623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E85BC52020FCC98A00A7623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZHttpTool.app/VZHttpTool";
+			};
+			name = Debug;
+		};
+		E85BC52120FCC98A00A7623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZHttpTool.app/VZHttpTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85BC4F620FCC98A00A7623E /* Build configuration list for PBXProject "VZHttpTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85BC51A20FCC98A00A7623E /* Debug */,
+				E85BC51B20FCC98A00A7623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85BC51C20FCC98A00A7623E /* Build configuration list for PBXNativeTarget "VZHttpTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85BC51D20FCC98A00A7623E /* Debug */,
+				E85BC51E20FCC98A00A7623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85BC51F20FCC98A00A7623E /* Build configuration list for PBXNativeTarget "VZHttpToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85BC52020FCC98A00A7623E /* Debug */,
+				E85BC52120FCC98A00A7623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85BC4F320FCC98A00A7623E /* Project object */;
+}
