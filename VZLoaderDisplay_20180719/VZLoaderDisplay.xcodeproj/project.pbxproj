@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E862278F20FF3D7000EE285D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E862278E20FF3D7000EE285D /* AppDelegate.m */; };
+		E862279220FF3D7000EE285D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E862279120FF3D7000EE285D /* ViewController.m */; };
+		E862279520FF3D7000EE285D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E862279320FF3D7000EE285D /* Main.storyboard */; };
+		E862279720FF3D7000EE285D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E862279620FF3D7000EE285D /* Assets.xcassets */; };
+		E862279A20FF3D7000EE285D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E862279820FF3D7000EE285D /* LaunchScreen.storyboard */; };
+		E862279D20FF3D7000EE285D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E862279C20FF3D7000EE285D /* main.m */; };
+		E87A8ECC20FF3E820023F113 /* VZDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E87A8ECB20FF3E820023F113 /* VZDownloadIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E862278A20FF3D7000EE285D /* VZLoaderDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZLoaderDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E862278D20FF3D7000EE285D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E862278E20FF3D7000EE285D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E862279020FF3D7000EE285D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E862279120FF3D7000EE285D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E862279420FF3D7000EE285D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E862279620FF3D7000EE285D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E862279920FF3D7000EE285D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E862279B20FF3D7000EE285D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E862279C20FF3D7000EE285D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87A8ECA20FF3E820023F113 /* VZDownloadIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZDownloadIndicator.h; sourceTree = "<group>"; };
+		E87A8ECB20FF3E820023F113 /* VZDownloadIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZDownloadIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E862278720FF3D7000EE285D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E862278120FF3D7000EE285D = {
+			isa = PBXGroup;
+			children = (
+				E862278C20FF3D7000EE285D /* VZLoaderDisplay */,
+				E862278B20FF3D7000EE285D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E862278B20FF3D7000EE285D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E862278A20FF3D7000EE285D /* VZLoaderDisplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E862278C20FF3D7000EE285D /* VZLoaderDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E862278D20FF3D7000EE285D /* AppDelegate.h */,
+				E862278E20FF3D7000EE285D /* AppDelegate.m */,
+				E862279020FF3D7000EE285D /* ViewController.h */,
+				E862279120FF3D7000EE285D /* ViewController.m */,
+				E87A8ECA20FF3E820023F113 /* VZDownloadIndicator.h */,
+				E87A8ECB20FF3E820023F113 /* VZDownloadIndicator.m */,
+				E862279320FF3D7000EE285D /* Main.storyboard */,
+				E862279620FF3D7000EE285D /* Assets.xcassets */,
+				E862279820FF3D7000EE285D /* LaunchScreen.storyboard */,
+				E862279B20FF3D7000EE285D /* Info.plist */,
+				E862279C20FF3D7000EE285D /* main.m */,
+			);
+			path = VZLoaderDisplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E862278920FF3D7000EE285D /* VZLoaderDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86227A020FF3D7000EE285D /* Build configuration list for PBXNativeTarget "VZLoaderDisplay" */;
+			buildPhases = (
+				E862278620FF3D7000EE285D /* Sources */,
+				E862278720FF3D7000EE285D /* Frameworks */,
+				E862278820FF3D7000EE285D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VZLoaderDisplay;
+			productName = VZLoaderDisplay;
+			productReference = E862278A20FF3D7000EE285D /* VZLoaderDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E862278220FF3D7000EE285D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = VicentZ;
+				TargetAttributes = {
+					E862278920FF3D7000EE285D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E862278520FF3D7000EE285D /* Build configuration list for PBXProject "VZLoaderDisplay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E862278120FF3D7000EE285D;
+			productRefGroup = E862278B20FF3D7000EE285D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E862278920FF3D7000EE285D /* VZLoaderDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E862278820FF3D7000EE285D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E862279A20FF3D7000EE285D /* LaunchScreen.storyboard in Resources */,
+				E862279720FF3D7000EE285D /* Assets.xcassets in Resources */,
+				E862279520FF3D7000EE285D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E862278620FF3D7000EE285D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E862279220FF3D7000EE285D /* ViewController.m in Sources */,
+				E87A8ECC20FF3E820023F113 /* VZDownloadIndicator.m in Sources */,
+				E862279D20FF3D7000EE285D /* main.m in Sources */,
+				E862278F20FF3D7000EE285D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E862279320FF3D7000EE285D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E862279420FF3D7000EE285D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E862279820FF3D7000EE285D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E862279920FF3D7000EE285D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E862279E20FF3D7000EE285D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E862279F20FF3D7000EE285D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E86227A120FF3D7000EE285D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZLoaderDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZLoaderDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E86227A220FF3D7000EE285D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZLoaderDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZLoaderDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E862278520FF3D7000EE285D /* Build configuration list for PBXProject "VZLoaderDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E862279E20FF3D7000EE285D /* Debug */,
+				E862279F20FF3D7000EE285D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86227A020FF3D7000EE285D /* Build configuration list for PBXNativeTarget "VZLoaderDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86227A120FF3D7000EE285D /* Debug */,
+				E86227A220FF3D7000EE285D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E862278220FF3D7000EE285D /* Project object */;
+}
